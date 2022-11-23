@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+/*
+Base style 
+*/
+body{
+    font-family: 'Noto Sans JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333
+};
+
+
+/* 
+section 
+*/
+.section {
+    padding: 30px 15px;
+}
+
+.section-secondary {
+    background-color: #b0c4de;
+}
+
+.section-headline {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 40px;
+}
+
+/* 
+about
+*/
+.about {
+    margin: 0;
+    display: flex;
+}
+/* .about-image {}  */
+.about-caption {
+    padding-left: 15px;
+    font-size: 30px;
+}
+.about-headline {
+    margin: 0 0 20px;
+    font-size: 30px;
+}
+/* .about-description {} */
+
+
+/* 
+Feature
+*/
+.grid {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid-item {
+    list-style: none;
+}
+
+.grid-col-2 > .grid-item {
+    width: 50%;
+}
+.grid-col-3 > .grid-item {
+    width: 33.3%;
+}
+.grid-col-4 > .grid-item {
+    width: 25%;
+}
+
+.feature {
+    text-align: center;
+    padding: 0 15px;   
+}
+
+.feature-headline {
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+
+.feature-img {
+    margin: 0 0 20px;
+}
+
+.feature-description {
+    text-align: left;
+}
+
+
+/* 
+Blog
+*/
+.card {
+    padding: 0 10px;
+}
+.card-link {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    transition: background-color .25s;
+}
+.card-link:hover {
+    background-color: rgb(60, 155, 199);
+}
+.card-label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(79, 123, 160);
+    color: rgb(15, 6, 56);
+    display: block;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.card-img {
+    width: 100%;
+    height: auto;
+}
+.card-time {}
+.card-headline {}
+.card-description {}
+.avator {}
+.avator-name {}
+.avator-img {}
+
+
